@@ -54,5 +54,6 @@ A **React Native** application built with **TypeScript** that fetches real-time 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/weather-news-aggregator.git
-cd weather-news-aggregator
+git clone https://github.com/Binary-Shade/Weather-app-RN.git
+cd Weather-app-RN
+```
