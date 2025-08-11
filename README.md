@@ -40,10 +40,13 @@ A **React Native** application built with **TypeScript** that fetches real-time 
 
 ## 📸 Screens
 
-1. **Home Screen** – Displays current weather and filtered news headlines.  
-2. **Settings Screen** – Customize units and news preferences.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84587955-93bd-467a-9592-ef8befc13d56" alt="Screenshot 2" width="30%" />
+  <img src="https://github.com/user-attachments/assets/d81f1340-9717-447f-bed1-73b42bcbc0b1" alt="Screenshot 1" width="30%" />
+  <img src="https://github.com/user-attachments/assets/fbcbb681-dc29-4084-acd9-0d1385ed7ab7" alt="Screenshot 3" width="30%" />
+</p>
 
----
+
 
 ## 🚀 Getting Started
 
