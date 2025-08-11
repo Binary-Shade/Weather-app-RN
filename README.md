@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🌦️ Weather & News Aggregator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A **React Native** application built with **TypeScript** that fetches real-time **weather information** and **news headlines**, with a unique twist — it **filters news articles based on the current weather** to match the mood of the day.  
 
-## Get started
+---
 
-1. Install dependencies
+## 📋 Features
 
-   ```bash
-   npm install
-   ```
+### 1. Weather Information
+- Get **current weather** based on your location.
+- View **temperature**, **weather conditions**, and a **5-day forecast**.
+- Choose between **Celsius** or **Fahrenheit** units.
+- Powered by [OpenWeatherMap API](https://openweathermap.org/api).
 
-2. Start the app
+### 2. News Headlines
+- Latest news headlines from around the world.
+- View **title**, **short description**, and **read full article** link.
+- Powered by [NewsAPI](https://newsapi.org/).
 
-   ```bash
-   npx expo start
-   ```
+### 3. Weather-Based News Filtering
+- **Cold Weather** → Depressing news headlines.  
+- **Hot Weather** → Fear-related news.  
+- **Cool Weather** → News about winning and happiness.
 
-In the output, you'll find options to open the app in a
+### 4. Settings
+- Change temperature units (°C/°F).
+- Select your preferred news categories.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+- **Framework:** [React Native](https://reactnative.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **State Management:** Context API / Provider (or Riverpod equivalent for RN)
+- **Weather API:** [OpenWeatherMap](https://openweathermap.org/api)
+- **News API:** [NewsAPI](https://newsapi.org/)
 
-When you're ready, run:
+---
 
+## 📸 Screens
+
+1. **Home Screen** – Displays current weather and filtered news headlines.  
+2. **Settings Screen** – Customize units and news preferences.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js & npm or yarn installed
+- React Native CLI installed
+- iOS/Android development environment set up
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/weather-news-aggregator.git
+cd weather-news-aggregator
