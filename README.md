@@ -32,7 +32,7 @@ A **React Native** application built with **TypeScript** that fetches real-time 
 
 - **Framework:** [React Native](https://reactnative.dev/)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **State Management:** Context API / Provider (or Riverpod equivalent for RN)
+- **State Management:** Context API / Provider 
 - **Weather API:** [OpenWeatherMap](https://openweathermap.org/api)
 - **News API:** [NewsAPI](https://newsapi.org/)
 
